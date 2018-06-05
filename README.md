@@ -1,2 +1,25 @@
 # SpringRelease
 Spring揭秘读书笔记
+1、Spring框架所展现的开发理念和方法学等都应该成为我们日常开发过程中不可或缺的伙伴。
+2、技术是发展的，但思想确实延续的。
+3、为了能够让这些
+基础的POJO构建出健壮而强大的应用，Spring框架就好像那包裹地球的大气层一样，为构筑应用的
+POJO提供了各种服务，进而创造了一套适宜用POJO进行轻量级开发的环境。
+4、沿着Spring生命之树往上左序遍历，我们将来到AOP模块。该模块提供了一个轻便但功能强大的
+AOP框架，让我们可以以AOP的形式增强各POJO的能力，进而补足OOP/OOSD之缺憾。Spring的AOP
+框架符合AOP Alliance规范，采用Proxy模式构建，与IoC容器相结合，可以充分显示出Spring AOP的
+强大威力。我们将在了解了Spring的IoC容器的基础上，详细讲述Spring AOP这一部分。
+5、继续上行，Spring框架在Core核心模块和AOP模块的基础上，为我们提供了完备的数据访问和事
+务管理的抽象和集成服务。在数据访问支持方面，Spring对JDBC API的最佳实践极大地简化了该API
+的使用。除此之外，Spring框架为各种当前业界流行的ORM产品，比如Hibernate、iBATIS、Toplink、
+JPA等提供了形式统一的集成支持。Spring框架中的事务管理抽象层是Spring AOP的最佳实践，它直接
+构建在Spring AOP的基础之上，为我们提供了编程式事务管理和声明式事务管理的完备支持。这些服
+务极大地简化了日常应用开发过程中的数据访问和事务管理工作。在学习完这两部分内容之后，相信
+读者将会有切身的体会。
+为了简化各种Java EE服务（像JNDI、JMS以及JavaMail等）的使用，Spring框架为我们提供了针
+对这些Java EE服务的集成服务。在Spring的帮助下，这些Java EE服务现在都变得不再烦琐难用。因为
+相关的Java EE服务较多，我们将会选择合适的几种介绍Spring框架给予它们的支持。随着航空航天技
+术的发展，我们现在可以从地球上发送飞船去访问其他星球，使用Spring框架构建的基于POJO的应用
+程序如果也需要远程访问或者公开一些服务的话，Spring的Remoting框架将帮助它完成这一使命。
+Spring的Remoting框架和Spring对其他Java EE服务的集成将分别在不同的章节中介绍。
+6、
